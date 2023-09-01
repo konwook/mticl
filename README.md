@@ -1,5 +1,5 @@
 # Learning Shared Safety Constraints from Multi-Task Demonstrations
-This project provides the implementation of [Learning Shared Safety Constraints from Multi-Task Demonstrations]().
+This project provides the implementation of [Learning Shared Safety Constraints from Multi-Task Demonstrations](https://openreview.net/pdf?id=jXTwwKSbcO).
 <p align="center">
   <img width="600" src="/assets/icl_ffig.png">
 </p>
@@ -7,11 +7,11 @@ This project provides the implementation of [Learning Shared Safety Constraints 
 If you found this repository useful in your research, please consider citing our paper:
 
 ```bibtex
-@article{,
-  title={},
-  author={},
-  journal={},
-  year={}
+@inproceedings{kim2023learning,
+  title={Learning Shared Safety Constraints from Multi-task Demonstrations},
+  author={Kim, Konwoo and Swamy, Gokul and Liu, Zuxin and Zhao, Ding and Choudhury, Sanjiban and Wu, Steven},
+  booktitle={The Second Workshop on New Frontiers in Adversarial Machine Learning},
+  year={2023}
 }
 ```
 
