@@ -19,7 +19,7 @@ def gen_table(args: Config):
     expert_violation = demos["constraint"].mean() * 1000
 
     print(f"Expert reward: {expert_reward}, expert violation: {expert_violation}")
-    base_path = "../log/AntBulletEnv-v0/"
+    base_path = "../learners/AntBulletEnv-v0/"
     if args.constraint_type == "Position":
         base_path += "icl_Position_AntBulletEnv-v0_seed0_anneal_aug_slope_0.5"
     elif args.constraint_type == "Velocity":

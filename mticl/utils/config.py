@@ -45,7 +45,7 @@ class CPOConfig:
     num_expert_trajs: int = field(default=20)
 
     # General params
-    log_dir: str = field(default="log")
+    log_dir: str = field(default="experts")
     log_path: str = field(default="")
     method: str = field(default="cpo")
     suffix: str = field(default="")  # !!!
@@ -110,6 +110,7 @@ class ICLConfig(CPOConfig):
 
     def __post_init__(self):
         self.method = "icl"
+        self.log_dir = "learners"
         self.log_path = osp.join(
             osp.dirname(osp.realpath(__file__)),
             "../..",

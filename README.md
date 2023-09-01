@@ -26,14 +26,15 @@ The high-level structure of this repository is as follows:
 │   ├── saferl # safe RL library
 │   ├── script # training, testing, plotting scripts
 │   ├── ├── train/test_cpo.py # CRL
-│   ├── ├── train/test_icl.py # Single-task ICL
 │   ├── ├── train_baseline.py # Chou et al. baseline
+│   ├── ├── train/test_icl.py # Single-task ICL
 │   ├── ├── planner_icl.py # Multi-task ICL
 │   ├── utils # utility functions
 |   ├── demos # generated expert demos
 │   ├── plots # plots for the paper
 │   ├── experiments # experiments for the paper
-├── log # experiment results
+├── experts # expert policies trained with CRL
+├── learners # learner policies trained with ICL
 ```
 > [!NOTE]
 > Please see [here](https://github.com/konwook/mticl/blob/main/mticl/README.md) for a detailed overview of the codebase.
